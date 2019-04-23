@@ -1,0 +1,170 @@
+
+
+	font-family: 'Poppins', sans-serif;
+
+	.navbar-light .navbar-brand {
+	    color: #cf86f9;
+	    font-weight: bold;
+	    padding: 20px;
+	}
+
+	.navbar-light .navbar-nav .nav-link{
+		padding: 20px;
+		color: #cf86f9;
+	    font-weight: bold;
+	}
+
+	.h4{
+		padding: 40px;
+	}
+
+	.contain {
+	  position: relative;
+	  margin: 0px;
+	  overflow: hidden;
+	  float: left;
+	  
+	}
+
+	.image {
+	  opacity: 1;
+	  display: block;
+	  width: 100%;
+	  height: auto;
+	  transition: .5s ease;
+	  backface-visibility: hidden;
+	}
+
+	.contain:hover .image {
+	  opacity: 0.1;
+	  width: 80%;
+	}
+	.middle {
+	  transition: .5s ease;
+	  opacity: 0;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%);
+	  text-align: center;
+	}
+	.contain:hover .middle {	
+	  opacity: 1;
+	}
+	.text:hover {
+
+		text-decoration: none;
+		color:#cf86f9;
+	}
+
+	.btn-outline-success{
+		padding: 9px;
+		border-color: #cf86f9;
+		color: black;
+		font-weight: bold; 
+	}
+
+	.btn-outline-success:hover{
+		background-color: #cf86f9;
+		color: white;
+		border-color: #cf86f9;
+		font-weight: bold; 
+	}
+
+	.form-control{
+		padding: 20px;
+		border-color: #cf86f9;
+		
+	}
+
+	.text{
+		color: black;
+		font-size:25px;
+		font-weight:bold;
+	}
+	.text1{
+		color: black;
+		font-size:20px;
+		
+	}
+	.text1:hover {
+
+		text-decoration: none;
+		color:#cf86f9;
+	}
+	.dropdown-menu{
+		left: auto;
+		right: auto;
+		top: 49px;
+	}
+
+
+	.dropdown-item{
+		color: #cf86f9 ;
+		font-weight: bold; 
+	}
+	.dropdown-item:hover {
+		text-decoration: none;
+		color:black;
+	}
+
+	.folioHeader{
+		padding-bottom: 70px;
+		padding-top: 70px;
+
+		/*word-spacing: 10px;*/
+	}
+	.folioHeader .btn:hover {
+		background-color: black;
+		border-radius: 30px;
+		color:white;
+		text-align: center;
+		padding:20px;
+	}
+	.folioHeader .btn {
+		border-radius: 30px;
+		color:#cf86f9;
+		font-weight:bold;
+		
+	}
+
+	.folioHeader .col-sm-auto{
+		padding:20px;
+		width: auto;
+		margin: 10px;
+	}
+
+	.folioHeader .btn.active{
+		background-color: black;
+		color: white;
+		outline-color: 
+	}
+
+	#all {
+	  display: inline;
+	}
+
+	.filterDiv {
+	  float: left;
+	  text-align: center;
+	  margin: 2px;
+	  display: none; /* Hidden by default */
+	}
+
+	.about{
+		background-color: #F8F8F8;
+		padding: 70px;
+
+	}
+
+	.footer{
+		padding: 30px;
+	}
+	/*.webdesign{
+		display: none;
+	}
+
+	.mobileapp{
+		display: none;
+	}*/
